@@ -1,24 +1,13 @@
 bin/schwartzmon
+Build.PL
 CHANGES
 doc/http-mappings.txt
 doc/notes.txt
 doc/schema-postgres.sql
 doc/schema.sql
 extras/check_schwartz
-extras/TheSchwartz.spec
+extras/perl-TheSchwartz.spec
 extras/thetop
-inc/Module/AutoInstall.pm
-inc/Module/Install.pm
-inc/Module/Install/AutoInstall.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Scripts.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
 lib/TheSchwartz.pm
 lib/TheSchwartz/Error.pm
 lib/TheSchwartz/ExitStatus.pm
@@ -26,10 +15,11 @@ lib/TheSchwartz/FuncMap.pm
 lib/TheSchwartz/Job.pm
 lib/TheSchwartz/JobHandle.pm
 lib/TheSchwartz/Worker.pm
-Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
+perltidyrc
+README.md
 server/bin/schwartzd
 server/doc/deps.txt
 server/doc/protocol.txt
@@ -61,5 +51,7 @@ t/scoreboard.t
 t/server-time.t
 t/unique.t
 t/work-before-funcids-exist.t
+xt/perlcritic.t
 xt/pod-coverage.t
+xt/pod-spelling.t
 xt/pod.t
